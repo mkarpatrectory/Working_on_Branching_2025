@@ -16,4 +16,4 @@ c_inp = input("What column are you looking at? \n" + ", ".join(cols) + "\n> ")
 c = cols.index(c_inp)
 f = input("What text are you looking for?\n> ")
 
-print(f"We found '{f}' {count_str(c+1, f)} times.")
+print(f"We found '{f}' {count_str(c, f)} times.")
